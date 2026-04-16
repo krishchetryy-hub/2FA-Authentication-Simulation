@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verify 2FA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Enter 2FA Code</h2>
+
+    <form action="/verify" method="POST"></form>
+        <input type="text" name="token" placeholder="Enter 6-digit code" required>
+        <button type="submit">Verify</button>
+    </form>
+</div>
+
+</body>
+</html>
